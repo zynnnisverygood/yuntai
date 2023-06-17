@@ -1,0 +1,5 @@
+<launch>
+    <node name="yuntai_pkg" pkg="yuntai_subscriber" type="yuntai_pkg" args="/dev/ttyUSB0" output="screen"/>
+    <node name="yuntai_pkg" pkg="yuntai_publisher" type="yuntai_pkg" args="/dev/ttyUSB0" output="screen"/>
+    <node name="yuntai_pkg" pkg="yuntai_cv" type="yuntai_pkg" args="/dev/ttyUSB0" output="screen"/>
+</launch>
